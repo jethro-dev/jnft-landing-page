@@ -20,12 +20,11 @@ const HorizontalWrapper = ({ children, direction = "left" }: Props) => {
     offset: ["start end", "end start"],
   });
 
-  let xTransform;
-  if (direction === "left") {
-    xTransform = useTransform(scrollYProgress, [0, 1], ["0%", "-50%"]);
-  } else {
-    xTransform = useTransform(scrollYProgress, [0, 1], ["-50%", "-0%"]);
-  }
+  const xTransform = useTransform(
+    scrollYProgress,
+    [0, 1],
+    direction === "left" ? ["0%", "-50%"] : ["-50%", "-0%"]
+  );
 
   return (
     <motion.div
