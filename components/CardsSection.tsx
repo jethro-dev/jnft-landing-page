@@ -13,6 +13,7 @@ const CardsSection = ({ direction = "left" }: Props) => {
           <div className="grid grid-cols-[repeat(5,60%)] md:grid-cols-[repeat(5,35%)] lg:grid-cols-[repeat(5,30%)] gap-6 xl:gap-16">
             {cards.map((card) => (
               <Card
+                key={card.id}
                 title={card.title}
                 description={card.description}
                 image={card.image}

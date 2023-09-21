@@ -40,8 +40,11 @@ export default function RootLayout({
       >
         <div className="absolute top-0 left-0 w-full h-full flex justify-evenly -z-10 pointer-events-none">
           {/* line 1 */}
-          {[0, 1, 2, 3].map((item) => (
-            <div className="bg-tertiary w-[1px] min-h-full relative"></div>
+          {[0, 1, 2, 3].map((item, index) => (
+            <div
+              key={index}
+              className="bg-tertiary w-[1px] min-h-full relative"
+            ></div>
           ))}
         </div>
         <Navbar />

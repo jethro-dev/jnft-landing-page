@@ -8,8 +8,8 @@ const TextSection = (props: Props) => {
     <section className="px-10 py-10">
       <div className="max-w-7xl mx-auto">
         <div>
-          {[0, 1, 2, 3, 4].map((i) => (
-            <TextFadeInWrapper>
+          {[0, 1, 2, 3, 4].map((i, index) => (
+            <TextFadeInWrapper key={index}>
               <p className="text-6xl first:mt-0 mt-6">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Inventore, veritatis. Lorem ipsum dolor sit amet consectetur

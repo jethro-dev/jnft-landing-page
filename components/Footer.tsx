@@ -46,13 +46,17 @@ const Footer = (props: Props) => {
             </div>
           </div>
           <div className="flex-1 flex">
-            {footerLinks.map((item) => (
-              <div className="flex-1 flex flex-col gap-4 items-start">
+            {footerLinks.map((item, index) => (
+              <div
+                key={index}
+                className="flex-1 flex flex-col gap-4 items-start"
+              >
                 <h3 className="text-lg font-semibold tracking-wider">
                   {item.title}
                 </h3>
                 {item.links.map((link) => (
                   <Link
+                    key={link.name}
                     href={link.href}
                     className="inline-block relative text-xs hover:text-white after:content-[''] after:absolute after:-bottom-[2px] after:left-0 after:w-full after:bg-white after:h-[.5px] after:opacity-0 after:hover:opacity-100 transition duration-300 after:transition-opacity after:duration-300"
                   >
