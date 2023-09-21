@@ -24,7 +24,7 @@ const Header = (props: Props) => {
         {/* left */}
         <div className="w-full md:w-[70%] flex flex-col order-2 md:order-1">
           <h1 className="text-4xl lg:text-6xl text-secondary font-abril">
-            Buy, collect, sell extraordinary NFTs
+            Buy, collect, and sell extraordinary NFTs
           </h1>
           <p className="mt-4">
             Acquire expertise in navigating the rapidly evolving and
