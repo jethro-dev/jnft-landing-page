@@ -21,15 +21,15 @@ const Navbar = (props: Props) => {
       <div className="h-full max-w-7xl mx-auto flex justify-between items-center">
         {/* LOGO */}
         <div className="h-full flex items-center justify-center">
-          <span>LOGO</span>
+          <span className="text-3xl text-secondary font-abril">JNFT</span>
         </div>
 
         <div className="h-full flex items-center gap-8">
-          <div className="h-full flex items-center gap-8">
+          {/* <div className="h-full flex items-center gap-8">
             {navLinks.map((link) => (
               <NavItems {...link} />
             ))}
-          </div>
+          </div> */}
           <Button name="Collect Wallet" />
         </div>
       </div>

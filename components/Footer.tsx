@@ -21,7 +21,7 @@ const Footer = (props: Props) => {
         <div className="pt-12 pb-8 w-full flex flex-col md:flex-row gap-12">
           <div className="flex-1 flex flex-col gap-8">
             <div>
-              <h3 className="text-lg tracking-wider">Logo</h3>
+              <h3 className="font-abril text-3xl text-white">JNFT</h3>
             </div>
             <div className="bg-primary ring-1 ring-tertiary rounded-lg px-3 py-2.5 w-full flex items-center justify-between">
               <input
@@ -68,7 +68,7 @@ const Footer = (props: Props) => {
 
         {/* bottom */}
         <div className="flex justify-between items-center text-xs py-6 border-t border-1 border-tertiary">
-          <span>&copy; 2023 LOGO. All rights reserved.</span>
+          <span>&copy; 2023 JNFT. All rights reserved.</span>
           <div className="flex items-center gap-4 cursor-pointer hover:[&>*]:text-white [&>*]:transition [&>*]:duration-200">
             <span>Privacy policy</span>
             <span>Terms of service</span>

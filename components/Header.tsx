@@ -35,7 +35,7 @@ const Header = (props: Props) => {
           <div className="mt-4 flex gap-4">
             <Button
               name="Get Started"
-              className="bg-secondary text-white ring-1 ring-secondary ring-inset"
+              className="bg-secondary text-white ring-2 ring-secondary ring-inset hover:bg-transparent"
             />
             <Button name="Learn More" />
           </div>
