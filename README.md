@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/jethro-dev/jnft-landing-page">
-    <img src="favicon.ico" alt="Logo" width="80" height="80">
+    <img src="public/images/file.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">NFT Landing Page</h3>
@@ -74,7 +74,7 @@
 
 ## About The Project
 
-[![Screenshot][product-screenshot]](https://jethroau.com/)
+[![Screenshot][product-screenshot]](https://jnft.vercel.app/)
 This project is built with `ReactJS`, `Next.js`, `TailwindCSS`, `TypeScript`, `Framer Motion` and more.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
